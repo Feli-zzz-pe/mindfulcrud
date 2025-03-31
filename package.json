@@ -1,0 +1,21 @@
+{
+  "name": "mindfulcrud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch --env-file=.env server.js",
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mindfulcrud": "file:",
+    "mongodb": "^6.15.0",
+    "pg": "^8.14.1"
+  },
+  "type": "module"
+}

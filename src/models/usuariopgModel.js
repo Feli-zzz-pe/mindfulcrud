@@ -1,6 +1,6 @@
 import conectarAPGDB from "../config/pgdbconfig.js";
 
-// const clientPG = await conectarAPGDB(process.env.PGDB_URL);
+
 const clientPG = await conectarAPGDB({
     user:process.env.PGDB_USER,
     host:process.env.PGDB_HOST,

@@ -5,7 +5,7 @@ import routesPmg from "./src/routes/postagemRoute.js";
 import routesPpg from "./src/routes/postagempgRoute.js";
 
 const app = express(); // Cria uma instância do Express.js, que será o núcleo da aplicação.
-//app.use(express.static("uploads"));
+
 routesUmg(app);
 routesPmg(app);
 routesUpg(app);
